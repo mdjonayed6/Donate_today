@@ -1,6 +1,7 @@
 .center-align {
     text-align: center;
     padding: 100px;
+
 }
 
 .button {
@@ -12,12 +13,24 @@
     font-weight: 700;
 }
 
+.text {
+    text-align: center;
+}
+
+.large-container {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
 .donation-1 {
     color: white;
     background: rgba(0, 0, 0, 0.7)url(images/donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     background-blend-mode: darken;
     margin-bottom: 100px;
     line-height: 25px;
@@ -43,6 +56,7 @@ hr {
 
 .half-width img {
     width: 80%;
+    box-shadow: 50px;
 }
 
 body {
@@ -54,6 +68,7 @@ body {
 .large-text {
     font-size: 70px;
 }
+
 
 input {
     background-color: none;
@@ -69,7 +84,13 @@ button {
     color: white;
 }
 
-
+.mid-container {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
 
 #form {
     background-color: peachpuff;
@@ -104,11 +125,6 @@ button {
     border-radius: 5px;
 }
 
-footer {
-    background-color: black;
-    color: white;
-}
-
 #humble {
     font-family: cursive;
     color: aqua;
@@ -124,4 +140,70 @@ footer {
 
 #education {
     background-color: lightgoldenrodyellow;
+}
+
+.align {
+    text-align: center;
+
+}
+
+.email {
+    background: orangered;
+    padding: 60px;
+    background-image: linear-gradient(orange, tomato);
+    margin: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 16px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: capitalize;
+    opacity: .4;
+    font-weight: 200;
 }
